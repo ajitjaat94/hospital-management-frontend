@@ -57,7 +57,7 @@ const Navbar = () => {
 
           {/* Button FIXED */}
           <a
-            href="#appointment"
+            href="https://wa.me/1234567890?text=I%20would%20like%20to%20book%20an%20appointment"
             className="hidden sm:inline-flex items-center gap-2 text-sm font-semibold text-white rounded-lg px-4 py-2"
             style={{ backgroundColor: "#2563eb" }}
           >
@@ -104,9 +104,11 @@ const Navbar = () => {
           ))}
 
           <a
-            href="#appointment"
+            href="https://wa.me/1234567890?text=I%20would%20like%20to%20book%20an%20appointment"
             className="mt-2 text-white text-center py-2 rounded-lg"
             style={{ backgroundColor: "#2563eb" }}
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}
           >
             Book Appointment

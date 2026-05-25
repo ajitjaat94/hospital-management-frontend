@@ -162,7 +162,7 @@ const HospitalInfoSection = () => {
               leading-tight
             "
           >
-            We Care for Your Health and Well Being
+           Your Health, Our Priority
           </h2>
 
           {/* Description */}
@@ -174,9 +174,9 @@ const HospitalInfoSection = () => {
               leading-relaxed
             "
           >
-            CityCare Hospital is dedicated to delivering exceptional healthcare
-            services with advanced medical technology, experienced doctors, and
-            compassionate patient care in a modern healing environment.
+            We offer trusted healthcare services with skilled doctors,
+             advanced medical facilities, and personalized care. Your 
+             health and comfort are our top priorities.
           </p>
 
           {/* Features */}
