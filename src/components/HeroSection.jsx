@@ -11,21 +11,27 @@ const HeroSection = () => {
 
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
-            Better Healthcare for a {" "}
+            Better Healthcare for a{" "}
             <span className="text-[#2563eb]">Better Life</span>
           </h1>
 
           {/* Description */}
           <p className="text-gray-500 text-lg leading-relaxed max-w-lg mx-auto md:mx-0">
-            We provide quality healthcare services with experienced doctors and modern facilities. From regular checkups to advanced treatments, we are committed to helping you and your family stay healthy.
+            We provide quality healthcare services with experienced doctors and
+            modern facilities. From regular checkups to advanced treatments, we
+            are committed to helping you and your family stay healthy.
           </p>
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-2">
             <button className="bg-[#2563eb] hover:bg-[#1d4ed8] text-white font-semibold px-8 py-4 rounded-xl transition-all duration-200 shadow-md hover:shadow-lg text-base">
-              <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                
-              Book Appointment
+              <a
+                href="https://wa.me/1234567890"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
+                Book Appointment
               </a>
             </button>
 
